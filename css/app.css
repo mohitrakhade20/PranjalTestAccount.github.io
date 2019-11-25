@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Samarkan";
+  src: url("./font/samarkan.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-header {
+    font-family: "Samarkan";
+    font-size: 2.0em;
+}
+
+.bg-dark {
+    background-color: #262626;
+}
+
+#main {
+    background-color: #262626;
+    margin: auto;
+    text-align: center;
+}
+
+#header {
+    padding: 30px 20px;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 20px 10px;
+    font-family: "Samarkan";
+    font-size: 200px;
+    color: white;
+    -webkit-animation: header-glow 1s ease-in-out infinite alternate;
+    -moz-animation: header-glow 1s ease-in-out infinite alternate;
+    animation: header-glow 1s ease-in-out infinite alternate;
+}
+
+#header h4 {
+    text-align: right;
+    padding-right: 20%;
+    letter-spacing: 1px;
+    font-size: 36px;
+    color: #FFFF00;
+    -webkit-animation: batch-glow 1s ease-in-out infinite alternate;
+    -moz-animation: batch-glow 1s ease-in-out infinite alternate;
+    animation: batch-glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes header-glow {
+  from {
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.6);
+  }
+  to {
+    text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@-webkit-keyframes batch-glow {
+  from {
+    text-shadow: 2px 2px 2px rgba(255, 255, 0, 0.8);
+  }
+  to {
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.2);
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+    #header h1 {
+        font-size: 100px;
+    }
+    #header h4 {
+        font-size: 18px;
+        padding-right: 10px;
+    }
+}
+
+#about {
+    padding: 20px;
+}
