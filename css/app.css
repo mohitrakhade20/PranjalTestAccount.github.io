@@ -117,3 +117,10 @@ body {
     padding: 5px 0;
     display: block;
 }
+#convener{
+    margin-left: 100px;
+}
+#grad {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #FFECB3);  
+/*    rgba(255,110,10,100)*/
+}
