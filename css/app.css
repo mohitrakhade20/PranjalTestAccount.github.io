@@ -57,10 +57,10 @@ body {
 
 @-webkit-keyframes header-glow {
   from {
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.8);
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
   }
   to {
-    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.4);
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.2);
   }
 }
 
