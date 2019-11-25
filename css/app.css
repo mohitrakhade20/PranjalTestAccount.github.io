@@ -12,13 +12,15 @@ body {
     padding: 0;
 }
 
-#navbar-header {
-    font-family: "Samarkan";
-    font-size: 2.0em;
+.navbar-custom {
+    color: white;
+    background-color: #262626;
 }
 
-.bg-dark {
-    background-color: #262626;
+#navbar-header {
+    color: white;
+    font-family: "Samarkan";
+    font-size: 2.5em;
 }
 
 #main {
@@ -33,7 +35,7 @@ body {
 
 #header h1 {
     margin: 0;
-    padding: 20px 10px;
+    padding: 100px 20px 10px 10px;
     font-family: "Samarkan";
     font-size: 200px;
     color: #d5d5d7;
@@ -47,7 +49,7 @@ body {
     padding-right: 20%;
     letter-spacing: 1px;
     font-size: 36px;
-    color: #DAA520;
+    color: #FFD700;
     -webkit-animation: batch-glow 1s ease-in-out infinite alternate;
     -moz-animation: batch-glow 1s ease-in-out infinite alternate;
     animation: batch-glow 1s ease-in-out infinite alternate;
@@ -55,10 +57,10 @@ body {
 
 @-webkit-keyframes header-glow {
   from {
-    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.6);
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.8);
   }
   to {
-    text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.2);
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.4);
   }
 }
 
@@ -73,6 +75,10 @@ body {
 
 
 @media screen and (max-width: 600px) {
+    #navbar-header {
+        font-size: 2.0em;
+    }
+
     #header h1 {
         font-size: 100px;
     }
