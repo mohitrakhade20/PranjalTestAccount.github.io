@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
-  font-family: "Samarkan";
-  src: url("./font/samarkan.ttf") format("truetype");
+    font-family: "Samarkan";
+    src: url("./font/samarkan.ttf") format("truetype");
 }
 
 body {
@@ -32,7 +36,7 @@ body {
     padding: 20px 10px;
     font-family: "Samarkan";
     font-size: 200px;
-    color: white;
+    color: #d5d5d7;
     -webkit-animation: header-glow 1s ease-in-out infinite alternate;
     -moz-animation: header-glow 1s ease-in-out infinite alternate;
     animation: header-glow 1s ease-in-out infinite alternate;
@@ -43,7 +47,7 @@ body {
     padding-right: 20%;
     letter-spacing: 1px;
     font-size: 36px;
-    color: #FFFF00;
+    color: #DAA520;
     -webkit-animation: batch-glow 1s ease-in-out infinite alternate;
     -moz-animation: batch-glow 1s ease-in-out infinite alternate;
     animation: batch-glow 1s ease-in-out infinite alternate;
@@ -90,4 +94,18 @@ body {
 #about-jallosh span {
     letter-spacing: normal;
     font-family: "Samarkan";
+}
+
+#read-more {
+    padding: 20px 0;
+}
+
+#read-more a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+#smooth-scroll-btn {
+    padding: 5px 0;
+    display: block;
 }
